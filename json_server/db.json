@@ -1,0 +1,19 @@
+{
+  "course": [
+    {
+      "name": "khoa hoc 1",
+      "description": "khoa hoc ngol",
+      "id": 1
+    },
+    {
+      "name": "khoa hoc 2",
+      "description": "khoa hoc ngu",
+      "id": 2
+    },
+    {
+      "name": "khoa hoc 3 ",
+      "description": "khoa hoc dot",
+      "id": 3
+    }
+  ]
+}
