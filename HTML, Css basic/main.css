@@ -1,0 +1,13 @@
+:root{
+    --text-color: green
+}
+
+h1{
+    color: var(--text-color)
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background: #812c2c1a;
+}
