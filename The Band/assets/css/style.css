@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Leto", sans-serif;
+}
+
+#main{
+
+}
+
+/* navigation */
+#header{
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav, .subnav{
+    list-style: none;
+}
+
+#nav > li{
+    display: inline-block;
+}
+
+#nav li{
+    position: relative;
+}
+
+#nav > li > a{ 
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+#nav li a{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 46px;
+    padding: 0 24px;
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a{
+    background-color: gray;
+    color: black;
+}
+
+#nav .subnav{
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a{
+    color: black;
+    padding: 0 12px;
+    display: block;
+    line-height: 38px;
+}
+
+#nav li:hover .subnav{
+    display: block;
+    background-color: aliceblue;
+    color: black;
+}
+
+#header .search-btn{
+    float: right;
+    line-height: 46px;
+    padding: 0 24px;
+}
+
+#header .search-icon{
+    color: white;
+    font-size: 16px;
+}
+#header .search-btn:hover{
+    background-color: red;
+}
+
+/* slider */
+#slider{
+    margin-top: 46px;
+    padding-top: 50%;
+    background: top center /cover no-repeat;
+}
+
+#slider .text-content{
+    color: white;
+    text-align: center;
+    padding: 32px 16px;
+}
+
+#slider .text-content p,
+#slider .text-content h2{
+    margin: 10px;
+}
+
+#content{
+
+}
+
+#footer{
+
+}
