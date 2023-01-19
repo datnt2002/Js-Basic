@@ -22,10 +22,10 @@
     <div id="main">
       <div id="header">
         <ul id="nav">
-          <li><a href="">Home</a></li>
-          <li><a href="">Band</a></li>
-          <li><a href="">Tour</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#band">Band</a></li>
+          <li><a href="#tour">Tour</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li>
             <a href="#">More <i class="fa-solid fa-caret-down"></i></a>
             <ul class="subnav">
@@ -40,44 +40,173 @@
         </div>
       </div>
       <div id="slider">
-        <div class="text-content">
-          <!-- <h2 class="text-heading">New York</h2>
-          <p class="text-description">
-            The atmosphere in New York is lorem ipsum.
-          </p> -->
-          <!-- style="background-image: url('./assets/img/chicago.jpg')" -->
-        </div>
+        <div class="text-content"></div>
       </div>
 
-      <div id="content"></div>
+      <div id="content">
+        <div id="band" class="description-section">
+          <div class="content-section">
+            <h2 class="section-heading">THE BAND</h2>
+            <p class="section-sub-heading">We love music</p>
+            <p class="about">
+              We have created a fictional band website. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="image-section">
+              <div class="about-item">
+                <p class="about">Name</p>
+                <img src="./assets/img/download.jfif" alt="" />
+              </div>
+              <div class="about-item">
+                <p class="about">Name</p>
+                <img src="./assets/img/download.jfif" alt="" />
+              </div>
+              <div class="about-item">
+                <p class="about">Name</p>
+                <img src="./assets/img/download.jfif" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <div id="footer"></div>
+        <div id="tour" class="tour-section">
+          <div class="content-section">
+            <h2 class="section-heading">TOUR DATES</h2>
+            <p class="section-sub-heading">Remember to book your tickets!</p>
+            <ul class="status-of-month">
+              <li class="month">
+                September <span class="ticket-sold">Sold out</span>
+              </li>
+              <li class="month">
+                October <span class="ticket-sold">Sold out</span>
+              </li>
+              <li class="month">November <span class="tickets-3">3</span></li>
+            </ul>
+            <div class="places-list">
+              <div class="place-items">
+                <img src="./assets/img/card1.jfif" alt="" />
+                <div class="place-body">
+                  <p class="place-heading"><b>New York</b></p>
+                  <p class="place-time">Fri 27 Nov 2016</p>
+                  <p class="place-description">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <a href="" class="buy-btn">Buy tickets</a>
+                </div>
+              </div>
+              <div class="place-items">
+                <img src="./assets/img/card 2.jfif" alt="" />
+                <div class="place-body">
+                  <p class="place-heading"><b>Paris</b></p>
+                  <p class="place-time">Sat 28 Nov 2016</p>
+                  <p class="place-description">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <a href="" class="buy-btn">Buy tickets</a>
+                </div>
+              </div>
+              <div class="place-items">
+                <img src="./assets/img/card3.jfif" alt="" />
+                <div class="place-body">
+                  <p class="place-heading"><b>San Francisco</b></p>
+                  <p class="place-time">Sun 29 Nov 2016</p>
+                  <p class="place-description">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <a href="" class="buy-btn">Buy tickets</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contact" class="contact-section">
+          <div class="content-section">
+            <h2 class="section-heading">CONTACT</h2>
+            <p class="section-sub-heading">Fan? Drop a note!</p>
+            <div class="contact-body">
+              <div class="contact-information">
+                <p><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+                <p><i class="fa-solid fa-phone"></i> Phone: +00 151515</p>
+                <p><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+              </div>
+              <div class="input-contact">
+                <div class="all-form">
+                  <div class="input-box">
+                    <input
+                      id="name-input"
+                      type="text"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="input-box">
+                    <input
+                      id="email-input"
+                      type="text"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                  <input
+                    id="message-input"
+                    type="text"
+                    placeholder="Message"
+                    required
+                  />
+                  <button>SEND</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img id="img-footer" src="./assets/img/map.jpg" alt="" />
+      <div id="footer">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-snapchat"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <p>Powered by <a href="#">w3.css</a></p>
+      </div>
     </div>
-    <script>
-      var backgroundImage = [
-        "./assets/img/chicago.jpg",
-        "./assets/img/img_la.jpg",
-        "./assets/img/ny.jpg",
-      ];
 
-      var cityElement = document.querySelector(".text-content");
+    <div id="ticket-modal">
+      <div class="modal-content">
+        <div class="modal-heading">
+          <span class="btn-x" onclick="hideModal()"
+            ><i class="fa-solid fa-x"></i
+          ></span>
+          <h2>
+            <span><i class="fa-solid fa-bag-shopping"></i></span> Tickets
+          </h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            <i class="fa-solid fa-cart-shopping"></i> Tickets, $15 per person
+          </p>
+          <input type="text" placeholder="How many?" />
+          <p><i class="fa-solid fa-user"></i> Send To</p>
+          <input type="text" placeholder="Enter email" />
 
-      var slider = document.querySelector("#slider");
-
-      function showImage(array) {
-        array.forEach(function (image) {
-          console.log(image);
-          slider.setAttribute("style", `background-image: url(${image})`);
-        });
-      }
-
-      showImage(backgroundImage);
-
-      var city = {
-        "New York": "The atmosphere in New York is lorem ipsum.",
-        Chicago: "Thank you, Chicago - A night we won't forget",
-        "Los Angeles": "We had the best time playing at Venice Beach!",
-      };
-    </script>
+          <button class="pay-btn">PAY <i class="fa-solid fa-v"></i></button>
+          <button class="close-btn close" onclick="hideModal()">
+            Close <i class="fa-solid fa-x"></i>
+          </button>
+          <p class="need-help">Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
