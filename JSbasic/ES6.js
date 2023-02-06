@@ -147,3 +147,24 @@
 // if (obj?.cat?.cat2?.cat3) {
 //   console.log(obj.cat.cat2.cat3.name);
 // }
+
+// function arrToObj(arr) {
+//   return arr.reduce(function (obj, item) {
+//     obj[item[0]] = item[1];
+//     return obj;
+//     // var obj[item[0]] =  item[1]
+//   }, {});
+// }
+
+// // var arrTres = ["1", "2", "3", 4];
+// // arrTres.reduce(function (acc, curr) {
+// //   console.log(curr);
+// // }, 0);
+// // console.log(arrTres[2]);
+
+// const obj1 = arrToObj([
+//   ["name", "Son Dang"],
+//   ["age", 21],
+//   ["address", "Ha Noi"],
+// ]);
+// console.log(obj1);

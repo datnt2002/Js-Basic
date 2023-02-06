@@ -1,0 +1,30 @@
+.box{
+    background-color: red;
+    height: 500px;
+    width: 700px;
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+
+.white{
+    right: 0;
+}
+
+.sign{
+    left: 0;
+}
+
+.active{
+    background-color: gray;
+    height: 100%;
+    position: absolute;
+    width: 50%;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+}
